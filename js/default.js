@@ -1,3 +1,32 @@
+@charset "utf-8";
+
+body{
+ background-color: mediumaquamarine;
+}
+
+.center{
+ margin: 0 auto 0 auto;
+ width: 50%;
+}
+
+ul{
+ list-style: none;
+ margin: 0;
+ padding: 0;
+}
+
+li{
+ float: left;
+ margin-right: 1%;
+}
+
+.image:after{
+ /* clear-fix */
+ content: "";
+ display: block;
+ clear: both;
+}
+
 // クッキー保存（クッキー名、クッキーの値、クッキーの有効日数）
 function setCookie(c_name,value,expiredays){
  // 有効期限の日付
