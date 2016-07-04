@@ -45,7 +45,7 @@ if(last_date){
 
 // 新しい値の保存
 var current_time = new Date();
-setCookie('lastDate', current_time.toSpring(), 7);
+setCookie('lastDate', current_time.toString(), 7);
 
 function getFileName() {
  // ホスト以下のパスを入力し、それをscript('/')で「/」区切りで配列に入れ、pop()で配列の最後の値を取得
